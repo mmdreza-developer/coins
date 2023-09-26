@@ -1,0 +1,89 @@
+.faqSection {
+    padding: 8rem 0;
+    /* background-color: var(--dark)!important; */
+}
+
+.title-faq {
+    font-size: 4rem;
+}
+
+.faq-item {
+    padding: 10px;
+    border-bottom: 2px solid var(--gray);
+}
+
+.question-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.question-item .question {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.question-item .icon-plus-dropdown {
+    margin-top: 20px;
+    font-size: 2rem;
+    background-color: var(--srame);
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid var(--transparent);
+}
+
+.question-item:hover .icon-plus-dropdown {
+    border: 1px solid var(--blue_300);
+}
+
+.question-item .number-question {
+    font-size: 3rem;
+    transform: translateY(-6px);
+}
+
+.goto-page-faq {
+    display: flex;
+    padding-top: 20px;
+    justify-content: flex-end;
+    gap: 5px;
+    align-items: center;
+    color: var(--blue_300);
+    cursor: pointer;
+}
+
+.goto-page-faq .icon-goto-faq {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--blue_300);
+    background-color: var(--srame);
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.goto-page-faq:hover .icon-goto-faq {
+    border: 2px solid var(--blue_300);
+}
+
+.rotate {
+    transform: rotate(45deg);
+}
+
+.b {
+    background: url('/media/thumbs/blog/v2/crypto_wallets_w768.jpg')
+}

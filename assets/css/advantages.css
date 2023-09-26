@@ -1,0 +1,35 @@
+.advantagesSection {
+    padding: 6rem 0;
+    background-color: var(--blueSrame);
+}
+
+.title-advantages {
+    font-size: 4rem;
+}
+
+@media screen and (max-width:768px) {
+    .title-advantages {
+        font-size: 2rem;
+    }
+}
+
+.advantages-items {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.card-advantages {
+    background: var(--gradient_blue);
+    padding: 20px 10px 30px 10px;
+    border-radius: 5px;
+}
+
+.icon-advantages ion-icon {
+    font-size: 1.3rem;
+    background-color: var(--blue_300);
+    padding: 8px;
+    border-radius: 100%;
+
+}

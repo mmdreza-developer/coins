@@ -1,0 +1,33 @@
+.currenciesSection {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.title-currencies {
+    font-size: 3rem;
+    margin-left: 70px;
+}
+.currencies-items {
+ gap: 10px;
+ justify-content: center;
+}
+.currencies-item{
+    background-color: var(--srame_dark);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 5px;
+ 
+}
+.currencies-item div{
+margin: 10px;
+}
+.svgcoin {
+    width: 63px;
+    height: 63px;
+}
+.currencies-item .name_svg {
+    text-align: center;
+}

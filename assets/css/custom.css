@@ -1,0 +1,60 @@
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: var(--white) !important;
+    background-color: var(--dark) !important;
+    /* height: 100vh; */
+
+}
+
+.body-index {
+    background-image: url("../img/bg_body.svg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    /* background-color: rgba(0, 0, 0, 1); */
+}
+
+.body-about {
+    background-color: var(--dark);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+:root {
+    -transparent: rgba(0, 0, 0, 0);
+    --white: #fff;
+    --blue_300: #008fdf;
+    --blue_400: #497ed1;
+    --blue_500: #063DA7;
+    --orange: #f7931a;
+    --dark: #0C0D16;
+    --gray: rgba(255, 255, 255, 0.2);
+    --srame: #21284B;
+    --selectedColor: #29315C;
+    --srame_dark: #161A30;
+    --dark_light: rgba(0, 0, 0, 0.5);
+    --pure_300: #c673d4;
+    --pure_500: #9157ff;
+    --blueSrame: #151b23;
+    --gradient_dark: linear-gradient(0deg, #0c0d16, #151b23);
+    --gradient_blue: linear-gradient(180deg, #21284B 39.69%, #5153E7 146.53%);
+}

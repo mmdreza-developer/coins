@@ -1,0 +1,25 @@
+.about-header{
+    position: sticky;
+    background-color: var(--dark);
+    top: 0;
+}
+.aboutUs_section {
+    margin: 3rem 0;
+}
+
+.title-aboutUs {
+    font-size: 4rem;
+}
+
+@media screen and (max-width:768px) {
+    .title-aboutUs {
+        font-size: 2rem;
+    }
+}
+.about-us{
+    display: flex;
+    gap: 10px;
+}
+.description-about-us{
+    padding-right: 160px;
+}

@@ -1,0 +1,247 @@
+.title-guidesTutorial {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.guidesTutorial {
+    padding: 10px;
+}
+
+@media screen and (max-width:768px) {
+    .title-guidesTutorial {
+        font-size: 2rem;
+    }
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.guidesTutorial {
+    margin: 4rem 0;
+    overflow: visible !important;
+}
+
+.guidesTutorial .swiper-wrapper .swiper-slide {
+    transform: translateY(-40px) !important;
+    /* height: 400px; */
+    cursor: pointer;
+}
+
+.guidesTutorial .swiper-slide {
+    font-size: 18px;
+    background: var(--srame);
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    transform: translate(100px);
+    gap: 10px;
+    overflow: hidden;
+}
+
+.guidesTutorial .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-guide-tutorial {
+    padding: 10px;
+}
+
+.content-guide-tutorial .guidesTutorial-item-time {
+    font-size: 12px;
+}
+
+.guidesTutorial .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.guidesTutorial .guidesTutorial-item-title {
+    padding: 10px !important;
+}
+
+.guidesTutorial .swiper-slide p {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.swiper-slide {
+    position: relative;
+}
+
+.guidesTutorial .swiper-slide:nth-child(1n) {
+    width: 20%;
+}
+
+.guidesTutorial .swiper-slide:nth-child(2n) {
+    width: 20%;
+}
+
+.guidesTutorial .swiper-slide:nth-child(3n) {
+    width: 20%;
+}
+
+
+
+
+.btn-guideTutorial {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    gap: 10px;
+}
+
+.btn-guideTutorial div {
+    border-radius: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--white);
+    transition: .5s ease;
+}
+
+.btn-guideTutorial div[aria-disabled=true] {
+    color: var(--gray);
+    border-color: var(--gray);
+    cursor: default;
+}
+
+.btn-guideTutorial div[aria-disabled=true]:active {
+    color: var(--gray);
+    border-color: var(--gray);
+    cursor: default;
+}
+
+.btn-guideTutorial div:hover {
+    border-color: var(--blue_300);
+    color: var(--blue_300);
+}
+
+.btn-guideTutorial div:active {
+    background-color: var(--blue_300);
+    color: var(--white);
+}
+
+ .swiper-scrollbar {
+    width: 300px !important;
+    background-color: var(--gray) !important;
+    height: 2px !important;
+    position: relative !important;
+}
+
+ .swiper-scrollbar div {
+    background-color: var(--blue_300) !important;
+
+}
+
+
+
+.bottom-swiper {
+    display: flex;
+    justify-content: space-around !important;
+    align-items: center;
+}
+
+.bottomRight-swiper {
+    align-self: center;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.readAll-swiper button {
+    padding: 7px 15px;
+    border: 1px solid var(--blue_300);
+    border-radius: 5px;
+    margin-right: 20px;
+    background-color: transparent;
+    color: var(--blue_300);
+}
+
+.readAll-swiper button:hover {
+    color: var(--white);
+    background-color: var(--blue_300);
+}
+
+
+/* .shadow-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background: linear-gradient(90deg, #000000bb 0, #00000000 100%);
+    z-index: 2;
+    border-radius: 0 50% 50% 0;
+    filter: blur(40%);
+}
+
+.shadow-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background: linear-gradient(90deg, #00000000 0, #000000bb 100%);
+    z-index: 2;
+    border-radius: 50% 0 0 50%;
+    filter: blur(40%);
+} */
+
+
+@media screen and (max-width:991px) {
+    .guidesTutorial .swiper-slide:nth-child(1n) {
+        width: 40% !important;
+    }
+
+    .guidesTutorial .swiper-slide:nth-child(2n) {
+        width: 40% !important;
+    }
+
+    .guidesTutorial .swiper-slide:nth-child(3n) {
+        width: 40% !important;
+    }
+
+    /* .shadow-left,
+    .shadow-right {
+        display: none;
+    } */
+}
+
+@media screen and (max-width:650px) {
+    .guidesTutorial .swiper-slide:nth-child(1n) {
+        width: 100% !important;
+    }
+
+    .guidesTutorial .swiper-slide:nth-child(2n) {
+        width: 100% !important;
+    }
+
+    .guidesTutorial .swiper-slide:nth-child(3n) {
+        width: 100% !important;
+    }
+
+    .btn-guideTutorial div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        font-size: 14px;
+    }
+ .swiper-scrollbar {
+        width: 200px !important;
+    }
+
+
+
+}

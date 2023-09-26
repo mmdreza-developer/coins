@@ -1,0 +1,438 @@
+.tite-exchange {
+    margin-top: 4rem !important;
+    margin-bottom: 2rem;
+    color: var(--white);
+    text-align: center;
+    font-size: 2rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.exchangeSection {
+    padding: 3rem 0;
+}
+
+@media screen and (max-width:768px) {
+    .tite-exchange {
+        font-size: 28px;
+    }
+
+    .exchange-center {
+        transform: translateY(15px)!important;
+    }
+}
+
+.send-exchange-title {
+    color: var(--orange);
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.exhange-inputs {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+}
+
+.input-left,
+.input-right {
+    position: relative;
+}
+
+.input-right {
+    position: relative;
+}
+
+.exhange-inputs input {
+    border: none;
+    background-color: var(transparent);
+    outline: none;
+    padding: 10px;
+    background: var(--dark_light);
+    border-radius: 5px;
+    width: 300px;
+    flex-grow: 1;
+}
+
+.input-left .svgcoin,
+.input-right .svgcoin {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+@media screen and (max-width:768px) {
+    .exhange-inputs {
+        display: block;
+    }
+
+    .exhange-inputs input {
+        width: 100% !important;
+    }
+
+    .exchange-center {
+        margin-top: 0 !important;
+        text-align: right;
+        transform: translateY(0);
+    }
+
+    .send-exchange-titledown,
+    .recive-exchange-titledown {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .input-destination {
+        width: 100% !important;
+    }
+
+    .destination-title {
+        margin-left: 0 !important;
+    }
+
+    .order-type {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        justify-content: flex-start !important;
+    }
+
+    .exchange-now-btn {
+        align-self: center !important;
+    }
+
+    .icons-destination {
+        right: 10px !important;
+        top: 5px !important;
+    }
+
+    .destination {
+        display: flex;
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+    }
+}
+
+.exchange-center {
+    color: var(--white);
+    margin-top: 30px;
+    font-size: 2rem;
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+.recive-exchange {
+    color: var(--orange);
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.dropdown-input {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    color: var(--orange);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.send-exchange-titledown,
+.recive-exchange-titledown {
+    justify-content: start;
+    gap: 4px;
+    font-size: 12px;
+}
+
+.destination {
+    font-size: 12px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media screen and (max-width:991px) {
+    .input-destination {
+        width: 100% !important;
+    }
+
+    .destination-title {
+        margin: 0 !important;
+    }
+
+    .destination {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:991px) {
+    .destination {
+        justify-self: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .inputParent-destination {
+        width: 100% !important;
+    }
+}
+
+.destination-title {
+    margin-left: 20px;
+    width: 60%;
+}
+
+.inputParent-destination {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 62%;
+}
+
+.input-destination {
+    width: calc(100% - 40px);
+    padding: 12px;
+    background: var(--dark_light);
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: var(--white);
+}
+
+.input-destination::placeholder {
+    color: var(--gray);
+}
+
+.icons-destination {
+    position: absolute;
+    right: 30px;
+    top: 7px;
+    font-size: 1.3rem;
+}
+
+.icons-destination> :hover {
+    cursor: pointer;
+    color: var(--blue_400);
+}
+
+.order-type-title {
+    font-size: 14px;
+    margin-right: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:768px) {
+    .order-type-title {
+        margin-left: 0;
+    }
+}
+
+.order-type {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns-order-type {
+    display: flex;
+
+    background: var(--gradient_dark);
+    justify-content: space-around;
+    border-radius: 10px;
+    flex-direction: row;
+}
+
+.btns-order-type button {
+    color: var(--gray);
+    cursor: pointer;
+    flex-grow: 1;
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    background: var(--dark_light);
+    color: var(--gray);
+    border: 2px solid var(--transparent);
+}
+
+.btns-order-type button:focus {
+    color: var(--blue_300);
+}
+
+.btns-order-type button:nth-child(1) {
+    border-radius: 10px 0 0 10px;
+}
+
+.btns-order-type button:nth-child(2) {
+    border-radius: 0 10px 10px 0;
+}
+
+.btns-order-type>:focus {
+    border: 2px solid var(--blue_400);
+}
+
+.what-difference {
+    margin-top: 5px;
+    display: flex;
+    margin-left: 5px;
+
+}
+
+.what-difference:hover .text-diference {
+    background: var(--gradient_dark);
+    opacity: 1;
+}
+
+.icon-difference {
+    background: #131313;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all .5s ease;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.icon-difference:hover+.text-diference {
+    background: var(--gradient_dark);
+    opacity: 1;
+}
+
+.icon-difference:hover+.text-diference {
+    background: var(--gradient_dark);
+}
+
+.text-diference {
+    padding: 2px 4px;
+    transition: .6s ease;
+    border-radius: 5px;
+    transform: translateX(-15px);
+    z-index: 0;
+    padding-left: 20px;
+    opacity: 0;
+}
+
+.text-diference:hover {
+    background: var(--gradient_dark);
+}
+
+.exchange-now-btn button {
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    background-color: var(--blue_300);
+    color: var(--white);
+    border-radius: 10px;
+}
+
+.services-exchange {
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.services-exchange a {
+    color: var(--blue_300);
+}
+
+.send-list-crypto,
+.recive-list-crypto {
+    width: 100%;
+    max-height: none;
+    padding: 0 !important;
+    margin: 0;
+    z-index: 1;
+    background-color: var(--srame);
+    border-radius: 0 0 5px 5px;
+    /* transform: translateY(-18px); */
+}
+
+.send-list-crypto .svgcoin,
+.recive-list-crypto .svgcoin {
+    width: 25px;
+    height: 25px;
+    /* background-repeat: no-repeat; */
+}
+
+.send-list-crypto li,
+.recive-list-crypto li {
+    padding: 0.5em 1em;
+    border-bottom: 0;
+    border-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+
+.send-list-crypto li .coin-outer,
+.recive-list-crypto li .coin-outer {
+    flex: 1;
+    padding-left: 5px;
+    font-size: .875em;
+    font-weight: 500;
+}
+
+.send-list-crypto li .coin-ticker,
+.recive-list-crypto li .coin-ticker {
+    font-size: .875em;
+    font-weight: 600;
+}
+
+.send-list-crypto li.ui-select-option,
+.recive-list-crypto li.ui-select-option {
+    transition: 0.6s ease;
+    cursor: pointer;
+    border-bottom: 1px solid var(--gray);
+}
+
+.send-list-crypto li.ui-select-option:hover,
+.recive-list-crypto li.ui-select-option:hover {
+    background-color: var(--selectedColor);
+}
+
+.send-list-crypto .ui-select-separate,
+.recive-list-crypto .ui-select-separate {
+    font-size: 0.8rem;
+    color: var(--gray);
+}
+
+.send-list-crypto li[data-value=BTC],
+.recive-list-crypto li[data-value=BTC] {
+    color: var(--orange);
+}
+
+.send-list-crypto li[data-value=ETH],
+.recive-list-crypto li[data-value=ETH] {
+    color: var(--white);
+}
+
+.send-list-crypto li[data-value=LTC],
+.recive-list-crypto li[data-value=LTC] {
+    color: #497ed1;
+}
+
+.send-list-crypto li[data-value=XMR],
+.recive-list-crypto li[data-value=XMR] {
+    color: #e06b1a;
+}

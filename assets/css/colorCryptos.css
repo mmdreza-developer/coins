@@ -1,0 +1,19 @@
+.eth,
+#eth {
+    color: var(--white);
+}
+
+.btc,
+#btc {
+    color: var(--orange)!important;
+}
+
+.ltc,
+#ltc {
+    color: #497ed1!important;
+}
+
+.xmr,
+#xmr {
+    color: var(--orange)!important;
+}
